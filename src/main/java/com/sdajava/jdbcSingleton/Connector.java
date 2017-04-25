@@ -17,7 +17,7 @@ public enum Connector {
             "useSSL=false&useJDBCCompliantTimezoneShift=" +
             "true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     public static final String USER="root";
-    public static final String PASSWORD="";
+    public static final String PASSWORD="Sapkowski18+";
 
 
     public static Connection setConnection ()    {
@@ -30,8 +30,6 @@ public enum Connector {
 
             connection = DriverManager.getConnection
                     (DB_URL, USER, PASSWORD);
-
-            //statement = connection.createStatement();
 
 
         } catch (SQLException ex) {

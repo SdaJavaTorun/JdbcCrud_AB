@@ -7,7 +7,7 @@ import java.sql.*;
  */
 public class DbResukt {
 
-    private Connector connector;
+    private static Connector connector;
 
     public void result() {
 
