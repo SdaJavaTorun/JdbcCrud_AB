@@ -17,7 +17,7 @@ public enum Connector {
             "useSSL=false&useJDBCCompliantTimezoneShift=" +
             "true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     public static final String USER="root";
-    public static final String PASSWORD="Sapkowski18+";
+    public static final String PASSWORD="";
 
 
     public static Connection setConnection ()    {
